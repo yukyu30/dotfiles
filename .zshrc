@@ -1,4 +1,6 @@
 
+PS1="%{$fg[cyan]%}[${USER}@${HOST%%.*} %1~]%(!.#.$)${reset_color} "
+
 function history-all { history -E 1 }
 
 eval `ssh-agent`
