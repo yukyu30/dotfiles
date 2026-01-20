@@ -24,15 +24,6 @@ export PATH="/opt/homebrew/bin:$PATH"
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
 
-# Fig
-[[ -f "$HOME/fig-export/dotfiles/dotfile.zsh" ]] && builtin source "$HOME/fig-export/dotfiles/dotfile.zsh"
-
-# Amazon Q
-[[ -f "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/amazon-q/shell/zshrc.post.zsh"
-
-# Antigravity
-export PATH="/Users/ugo/.antigravity/antigravity/bin:$PATH"
-
 # pnpm
 export PNPM_HOME="/Users/ugo/Library/pnpm"
 case ":$PATH:" in
